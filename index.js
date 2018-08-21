@@ -17,4 +17,10 @@ const driversByRevenue = function (drivers) {
     return drivers.slice().sort(function(driverA, driverB){
       return driverA.revenue - driverB.revenue;
     });
+};
+
+const driversByName = function (drivers) {
+  return drivers.slice().sort(function(driverA, driverB){
+    return driverA.name.localeCompare(driverB.name);
+  });
 }
