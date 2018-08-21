@@ -1,4 +1,4 @@
 // Code your solution in this file!
-const logDriverNames = function (name){
-  console.log(name)
+const logDriverNames = function (drivers){
+  console.log(drivers.name)
 }
